@@ -6,6 +6,11 @@
   "usuarioBloqueado":{
   "username": "locked_out_user",
   "password": "secret_sauce"
-  }
-  
-}
+  },
+  "dataConfirmation":{
+    "firstName": "Homero",
+    "lastName": "Simpson",
+    "zipCode": "123"
+  } 
+
+} 
