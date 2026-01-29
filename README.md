@@ -1,12 +1,13 @@
-#QA Challenge
+# QA Challenge
 
 Repositorio que contiene un framework pruebas de UI y API realizado con **Cypress/JavaScript**, utilizando como reporteria **Mchawesome** aplicando **POM (page object model)**
 
-##Requisitos previos para su uso
+## Requisitos previos para su uso
+
 npm
 node.js
 
-##Configuaración del proyecto
+## Configuaración del proyecto
 
 1 - Clonar repositorio:
 git clone url_delProyecto
@@ -15,7 +16,7 @@ cd QAChallenge
 3 - Instalar dependencias
 npm install
 
-##Ejecuión de pruebas
+## Ejecuión de pruebas
 
 Para ejecutar pruebas UI
 npm run cy:run:chrome
@@ -30,10 +31,12 @@ Ubicación del reporte: cypress/reports/html/index.html
 
 Las evidencias se almacenan en cypress/screenshots/
 
-##Sección 1: Pruebas y reporte de errores
+## Sección 1: Pruebas y reporte de errores
+
 La carpeta docs contiene información acerca de los puntos realizados
 
-Archivos
+### Archivos
+
 Punto 1 - TestPlan => Contiene el TestPlan realizado
 Punto 2 - TestCases.xlsx => Contiene el diseño de los casos de pruebas realizados
 Punto 4 - Bug.xlsx => Contiene el diseño de un bug con su respectiva evidencia
