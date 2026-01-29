@@ -1,9 +1,8 @@
 {
-  "scripts": {
-    "cy:run:chrome": "cypress run -b chrome",
-    "cy:run:api": "cypress run -b chrome --spec cypress/e2e/API.cy.js"
-
-  },
+"scripts": {
+  "cy:run:chrome": "cypress run -b chrome",                  
+  "cy:run:api": "cypress run --spec cypress/e2e/API.cy.js"
+},
   "dependencies": {
     "cypress": "^15.9.0"
   },
