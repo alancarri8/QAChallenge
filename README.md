@@ -23,7 +23,7 @@ npm run cy:run:chrome
 Para ejecutar prueba de API
 npm run cy:run:api
 
-Abrir el reporte de mochawesome
+Una vez ejecutadas las pruebas abrir el reporte de mochawesome
 start cypress\reports\html\index.html
 
 Ubicación del reporte: cypress/reports/html/index.html
@@ -37,7 +37,10 @@ Las evidencias se almacenan en cypress/screenshots/
 
 ## Archivos
 
-> Punto 1 - TestPlan => Contiene el TestPlan realizado
-> Punto 2 - TestCases.xlsx => Contiene el diseño de los casos de pruebas realizados
-> Punto 4 - Bug.xlsx => Contiene el diseño de un bug con su respectiva evidencia
-> Punto 3,5 y 6 => Contiene el punto 3 donde se seleccionaron casos de smoke y regression, punto 5 donde explicó realizo las pruebas de API, y el punto 6 donde diseño un test de API
+```
+ Punto 1 - TestPlan => Contiene el TestPlan realizado
+ Punto 2 - TestCases.xlsx => Contiene el diseño de los casos de pruebas realizados
+ Punto 4 - Bug.xlsx => Contiene el diseño de un bug con su respectiva evidencia
+ Punto 3,5 y 6 => Contiene el punto 3 donde se seleccionaron casos de smoke y regression, punto 5 donde explicó realizo las pruebas de API, y el punto 6 donde diseño un test de API
+
+```
