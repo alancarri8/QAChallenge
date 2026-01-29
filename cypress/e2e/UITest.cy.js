@@ -9,8 +9,6 @@ const checkout = new Checkout();
 const inventory = new Inventory();
 
 describe("Pruebas sobre login", () => {
-  let usuarios;
-
   beforeEach(function () {
     cy.fixture("usuarios").as("usuarios");
     loginPage.navegarASauce();
