@@ -14,7 +14,7 @@ Repositorio que contiene un framework pruebas de UI y API realizado con **Cypres
 3 - Instalar dependencias: npm install
 ```
 
-## Ejecuión de pruebas
+## Ejecución de pruebas
 
 ```
 Para ejecutar pruebas UI
@@ -23,7 +23,7 @@ npm run cy:run:chrome
 Para ejecutar prueba de API
 npm run cy:run:api
 
-Una vez ejecutadas las pruebas abrir el reporte de mochawesome
+Al finalizar cada prueba, ejecutar para generar el reporte:
 start cypress\reports\html\index.html
 
 Ubicación del reporte: cypress/reports/html/index.html
