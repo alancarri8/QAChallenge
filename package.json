@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "cy:run:chrome": "cypress run -b chrome"
+  },
   "dependencies": {
     "cypress": "^15.9.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }
